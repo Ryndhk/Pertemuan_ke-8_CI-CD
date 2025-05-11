@@ -6,6 +6,6 @@ int main() {
   int umur = 25;
 
   std::cout << "Halo, nama saya " << nama << " dan umur saya " << umur << " tahun." << std::endl;
-
+  std::cout <<"Halo apa kabar branch 2"<< std::endl;
   return 0;
 }
