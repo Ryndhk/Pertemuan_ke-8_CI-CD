@@ -11,7 +11,7 @@ jobs:
         run: sudo apt update && sudo apt install g++ -y
       
       - name: Compile
-        run: g++ Project_coba.cpp -o Project_coba.cpp
+        run: g++ Project_coba.cpp -o Project_coba
       
       - name: Run program
-        run: ./Project_coba.cpp
+        run: ./Project_coba
